@@ -1,0 +1,80 @@
+.sidebar {
+  width: 250px;
+  background-color: white;
+  height: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100vh;
+  overflow-y: auto;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar li {
+  margin-bottom: 10px;
+}
+
+.sidebar a {
+  display: flex;
+  color: #333;
+  text-decoration: none;
+  padding: 5px 10px;
+}
+
+.sidebar a:hover {
+  background-color: rgb(228, 170, 182);
+  color: red;
+  cursor: pointer;
+}
+
+.sidebar hr {
+  border: none;
+  border-top: 1px solid #ccc;
+  margin: 10px 0;
+}
+
+.sidebar .sub,
+.sidebar .setting {
+  margin-top: 20px;
+}
+
+.sidebar .sub p,
+.sidebar .setting p {
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: rgb(176, 175, 175);
+  font-size: smaller;
+  padding-left: 10px;
+}
+
+.sidebar ul li a div {
+  font-size: 20px;
+  margin-right: 8px;
+}
+
+.sidebar1 {
+  display: flex;
+  margin-left: 10px;
+}
+
+.sidebar2 {
+  display: flex;
+  margin-left: 10px;
+}
+
+.sidebar3 {
+  display: flex;
+  margin-left: 10px;
+}
+
+.sidebar-footer p :hover {
+  margin-left: 10px;
+  /* padding: 8px; */
+  font-size: smaller;
+  color: red;
+  cursor: pointer;
+}
